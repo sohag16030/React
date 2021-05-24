@@ -5,11 +5,11 @@ function ExpenseItem() {
   const expenseAmount = 294.67;
   return (
     <div className="expense-item">
-      <div>{}</div>
+      <div>{expenseTitle}</div>
       <div className="expense-item__description">
-        <h2 className="expense-item h2 ">{}</h2>
+        <h2 className="expense-item h2 ">{expenseDate}</h2>
       </div>
-      <div className="expense-item__price">{}</div>
+      <div className="expense-item__price">{expenseAmount}</div>
     </div>
   );
 }
