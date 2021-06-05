@@ -7,7 +7,7 @@ import React from 'react'
 }
 export default Hello; */
 
-/* export const User = function(){ //Name export
+/* export const User = function(){ //Name export.. must use {} for import from parent class
     return (
         <h1>Hello User</h1>
     )
