@@ -13,7 +13,7 @@ function App() {
       <Hello name="Rakib" age="31" />
       <Hello name="Robi" age="22" /> */}
 
-      <Welcome name="John" age="23"></Welcome>
+      {/* <Welcome name="John" age="23"></Welcome> */}
     </div>
   );
 }
