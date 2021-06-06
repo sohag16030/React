@@ -9,9 +9,9 @@ class Counter extends Component {
     };
   }
   increment() {
-    /*  this.state.count = this.state.count + 1;
-    // console.log(this.state.count); */
-    /* this.setState(
+    /*     this.state.count = this.state.count + 1;
+     console.log(this.state.count); */
+    /*     this.setState(
       {
         count: this.state.count + 1,
       },
@@ -20,11 +20,9 @@ class Counter extends Component {
       }
     ); */
 
-    this.setState(
-      prevState({
-        count: prevState.count + 1,
-      })
-    );
+    this.setState((prevState) => ({
+      count: prevState.count + 1,
+    }));
   }
 
   incrementfive() {
