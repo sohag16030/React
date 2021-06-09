@@ -10,24 +10,19 @@ export class CompA extends Component {
              value : 0
         }
     }
-    static getDerivedStateFromProps(props,state){
-        return{
-            
-        }
-    }
 
-    //  increment =()=>{
-    //    this.setState({
-    //        value : this.state.value + 1
-    //    })
-    //  }
+     increment =()=>{
+       this.setState({
+           value : this.state.value + 1
+       })
+     }
     
     render() {       
         return (
             <div>
                 <h2>Value : {this.state.value}</h2>
+                <button onClick={()=>this.increment()}>Increment</button>
                 <CompB data={this.state.value}></CompB>
-                {/* <button onClick={()=>this.increment()}>Increment</button> */}
             </div>
         )
     }
